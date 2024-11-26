@@ -1,6 +1,6 @@
 package Controle;
 
-public class Continue {
+public class Aula10Continue {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++){
             if (i % 2 == 1){
