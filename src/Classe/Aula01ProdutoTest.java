@@ -2,15 +2,11 @@ package Classe;
 
 public class Aula01ProdutoTest {
     public static void main(String[] args) {
-        Aula01Produto p1 = new Aula01Produto();
-        p1.nome = "Teclado";
-        p1.preco = 100.00;
-        p1.desconto = 0.15;
+        Aula01Produto p1 = new Aula01Produto("Notebook", 4356.89, 0.25);
 
-        var p2 = new Aula01Produto();
-        p2.nome = "Mouse";
-        p2.preco = 70.00;
-        p2.desconto = 0.08;
+
+        var p2 = new Aula01Produto("Caneta", 12.56, 0.29);
+
 
         System.out.println(p1.nome);
         System.out.println(p1.preco);
