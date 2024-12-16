@@ -16,6 +16,12 @@ public class Igual {
             System.out.println("Diferentes");
         }
 
+        if (a1.equals(b1)) {
+            System.out.println("Iguais");
+        } else {
+            System.out.println("Diferentes");
+        }
+
         String a = "a";
         String b = "a";
 
