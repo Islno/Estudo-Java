@@ -17,6 +17,7 @@ public class Matriz {
         // criação da matriz de notas de acordo com o numero de alunos e notas
         double[][] notasDaTurma = new double[numAlunos][numNotas];
         double total = 0;
+        double media = 0;
 
         //percorrendo a matriz
         for (int i = 0; i < notasDaTurma.length; i++) {
@@ -25,7 +26,7 @@ public class Matriz {
                 total += notasDaTurma[i][j] = entrada.nextDouble();
             }
         }
-        double media = total / (numAlunos * numNotas);
+        media = total / (numAlunos * numNotas);
         System.out.println("Media da turma: " + media);
     }
 }
